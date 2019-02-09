@@ -18,7 +18,7 @@ variable "agent_count" {
 }
 
 variable "ssh_public_key" {
-    default = "~/.ssh/id_rsa.pub"
+    default = "/home/vsts/work/r1/a/_Terraform-Aks-Acr-CI/drop/Templates/id_rsa.pub"
 }
 
 variable "dns_prefix" {
