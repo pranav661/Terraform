@@ -1,5 +1,5 @@
 #!/bin/bash
-cd "$(System.ArtifactsDirectory)/_$(build.definitionname)/drop/Templates"
+cd "$1/_$2/drop/Templates"
 #pwd
 
 wget https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_linux_amd64.zip
