@@ -1,3 +1,4 @@
+#!/bin/bash
 cd "$(System.ArtifactsDirectory)/_$(build.definitionname)/drop/Templates"
 #pwd
 
