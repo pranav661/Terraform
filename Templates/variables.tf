@@ -1,16 +1,16 @@
 variable "client_id" {
-    default = "785d2a85-a2db-49ac-a1d5-e7a1685848c3"
+    default = ""
 }
 variable "client_secret" {
-    default = "7nVPkivB7JfC7rYuLgAceAxQSdgBJ3Xx+wwt9OGkx9Q="
+    default = ""
 }
 
 variable "tenant_id" {
-    default = "707118c9-65c0-45b3-a435-33efe37cf0cc"
+    default = ""
 }
 
 variable "subscription_id" {
-    default = "e94e1dec-8646-4b8e-b63d-ebca88ada9e9"
+    default = ""
 }
 
 variable "agent_count" {
